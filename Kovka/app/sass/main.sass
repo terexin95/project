@@ -1,0 +1,522 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	color: $text
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	&.img-width
+		width: 100%
+
+.text-center
+	text-align: center
+
+b, strong
+	font-weight: bold
+
+/*
+.head
+	box-shadow: 0 0px 1px 4px #1e296d
+	background-color: $active
+	.linea-top
+		background-image: url(../img/nav.jpg)
+		background-size: cover
+		width: 100%
+		background-repeat-y: no-repeat
+		height: 48px
+
+.top-menu
+	padding: 0
+	margin: 0
+	nav
+		padding: 0
+		margin: 0
+		div
+			padding: 0
+			margin: 0
+		a
+			padding: 0
+			img
+				width: 130px
+				height: auto
+				margin-top: -15px
+				margin-bottom: 15px
+		ul
+			position: absolute
+			bottom: 0px
+			right: 10px
+			li
+				font-family: $om
+				text-transform: uppercase
+				font-size: 18px
+				line-height: 24px
+				padding: 3px 12px
+				border-right: 1px solid darken($active, 5%)
+				border-radius: 0
+				margin-bottom: 5px
+				&:last-child
+					border-right: none
+				a
+					color: $text-menu !important
+					display: block
+			.active
+				background-color: #80b0ff
+				margin-bottom: -4px
+				border-bottom: 4px solid #27358e
+				border-top: 1px solid #fff
+				border-left: 1px solid #fff
+				border-right: 1px solid #fff
+				border-radius: 5px
+				a
+					color: #fff !important
+	
+.social
+	ul
+		padding: 0
+		margin: 0
+		top: 0
+		right: 0
+		li
+			display: inline-block
+			text-align: center
+			border-right: 1px solid #999999 !important
+			border: 1px solid #999999
+			padding: 0 10px !important
+			margin: 0
+			border-radius: 0 !important
+			a
+				i
+					line-height: 23.85px
+					font-size: 13px
+
+.navbar-toggler:not(:disabled):not(.disabled)
+	border: none
+	box-shadow: 0
+	outline: 0
+	i
+		font-size: 35px
+		color: #fff
+
+.block-one
+
+.bg-owr
+	background-image: url(../img/1.jpg)
+	background-size: cover
+	background-position: top center
+	width: 100%
+	height: 840px
+
+.main
+	background-color: #fff
+	padding: 30px 35px
+	box-shadow: 0 0 2px 3px rgba(#454545, .4)
+	margin-bottom: 30px
+	.rek
+		margin: auto
+		background-color: #4f80be
+		font-family: $om
+		color: #fafafa
+		display: flex
+		justify-content: space-between
+		align-items: center
+		padding: 0 35px
+		margin-bottom: 30px
+		p
+			display: inline-block
+			font-size: 20px
+			text-transform: uppercase
+			padding: 0
+			margin: 0
+			line-height: 90px
+	.bread
+		nav
+			border-radius: 0
+			background-color: $active
+			ol
+				background-color: $active
+				font-family: $om
+				text-transform: uppercase
+				a
+					color: #fff
+		span
+			font-family: $ari
+			font-size: 13px
+			padding: 0 5px
+			cursor: pointer
+	.block-news
+		padding-top: 30px
+		h2
+			font-family: $ob
+			font-size: 32px
+			line-height: 36px
+			text-transform: uppercase
+		.bl-img
+			margin-top: 30px
+			padding: 5px
+			box-shadow: 0 0 1px 1px #454545
+		p
+			font-family: $ar
+			font-size: 16px
+			line-height: 24px
+			padding-top: 25px
+		.descr
+			display: flex
+			justify-content: space-between
+			span
+				cursor: pointer
+				font-size: 16px
+				font-family: $ari
+			.tag
+				font-size: 13px
+				font-family: $ari
+				span
+					color: #80b0ff
+					font-size: 13px
+
+
+.breadcrumb-item+.breadcrumb-item
+	color: darken($active, 20%)
+	&::before
+		color: darken($active, 20%)
+
+
+//Ковка*/
+
+.forging
+	nav
+		background-color: darken(#343a40, 5%)
+		div
+			text-align: center
+			margin: 0 auto
+			ul
+				width: 100%
+				position: relative
+				li
+					font-family: $om
+					text-transform: uppercase
+					font-size: 18px
+					padding: 0 20px
+					a
+						color: $text-f !important
+
+.contact
+	display: block
+	color: $text-f
+	.button-phone
+
+	span
+		margin-right: 60px
+		cursor: pointer
+
+
+.f
+	&__1
+		background-image: url(https://image.ibb.co/kaFkQp/bg_top.jpg)
+		height: 100vh
+		width: 100%
+		background-size: cover
+		background-repeat: no-repeat
+		.top-text
+			padding-top: 30vh
+			height: 100vh
+			font-family: $om
+			text-align: center
+			margin: auto 0
+			.button-phone
+				font-family: 'Podkova', sans-serif !important
+				font-weight: 600
+				color: #fff !important
+				padding: 10px 70px
+				margin-top: 30px
+				display: inline-block
+				color: #000
+				background-color: transparent
+				font-family: $ar
+				border-radius: 5px
+				font-size: 20px
+				border: 3px solid #fff
+				text-shadow: 1px 1px 2px black, 0 0 1em red
+				box-shadow: 1px 1px 2px black, 0 0 1em red
+				&:hover
+					background-color: transparent !important
+					border-color: #fff !important
+					color: #fff !important
+					text-shadow: none
+					box-shadow: 1px 1px 2px black, 0 0 2em #red
+			h1
+				color: #ffd700
+				text-shadow: 1px 1px 2px black, 0 0 1em red
+			p
+				color: #fff
+				line-height: 24px
+				font-size: 26px
+				text-shadow: 1px 1px 2px black, 0 0 1em red
+	&__2
+		font-family: 'Podkova', sans-serif !important
+		text-align: center
+		margin: 30px 0
+		.block-vantege
+			margin: 40px 0
+			box-shadow: 0 0 7px 2px rgba(#000, .2)
+			width: 100%
+			height: 200px
+			padding-top: 15px
+			transition: all .4s ease-out
+			cursor: pointer
+			border-radius: 3px
+			&:hover
+				transform: translateY(-10px)
+				transition: all .4s ease-out
+				box-shadow: 0 0 10px 2px rgba(#000, .35)
+			i
+				font-size: 45px
+				padding: 20px
+				border: 3px solid #2d2d2d
+				border-radius: 100%
+				//background-color: lighten($text-f, 5%)
+			p
+				margin-top: 10px
+				font-family: $ar
+				font-size: 16px
+		h5
+			text-align: left
+			line-height: 30px
+
+	&__3
+		background-image: url(https://image.ibb.co/gO7zkp/bg.jpg)
+		background-size: cover
+		background-repeat: no-repeat
+		width: 100%
+		height: auto
+		padding: 0
+		.owr-bg-one
+			padding: 60px 0
+			background-color: rgba(#292d32, .1)
+			.tovar
+				margin: 20px 0
+				text-align: center
+				font-family: 'Podkova', sans-serif
+				.owr
+					position: relative
+					box-shadow: 0  0 7px 2px rgba(0, 0, 0, .23)
+					img
+						width: 100%
+						height: auto
+					span
+						position: absolute
+						top: 65%
+						left: 50%
+						background-color: rgba(#000, .95)
+						width: 100%
+						color: #fff
+						height: 100%
+						display: flex
+						align-items: center
+						justify-content: center
+						transform: translate(-50%, -65%)
+						opacity: 0
+						cursor: pointer
+						transition: all .35s ease-out
+						line-height: 18px
+					a
+						font-size: 16px
+						font-weight: 400
+						color: #f4f4f4
+						position: absolute
+						padding: 3px
+						font-weight: 400
+						font-family: 'Podkova'
+						width: 150px
+						top: 80%
+						left: 50%
+						transform: translate(-50%, -80%)
+						line-height: 18px
+						opacity: 0
+					&:hover
+						span
+							opacity: 1
+							transition: all .35s ease-out
+							box-shadow: 0  0 7px 2px rgba(0, 0, 0, .43)
+						a
+							opacity: 1
+							transition: all .35s ease-out
+							box-shadow: 0  0 7px 2px rgba(0, 0, 0, .43)
+
+
+				h4
+					font-size: 20px
+					padding: 20px 0 0 0
+					font-weight: 600
+			a
+				border: 2px solid #ffd700
+				padding: 7px 45px
+				text-decoration: none
+				list-style-type: none
+				box-shadow: 0px 0 10px 2px rgba(#000, .35)
+				font-family: $om
+				letter-spacing: 1px
+				color: #454545
+				&:hover
+					box-shadow: 0px 0 10px 2px rgba(#000, .25)
+	&__4
+		background-image: url(https://image.ibb.co/m0LGy9/vide.png)
+		background-size: cover
+		background-position: center
+		background-repeat: no-repeat
+		width: 100%
+		height: auto
+		padding: 0
+		.owr-bg-two
+			padding: 60px 0 60px
+			background-color: rgba(0, 0, 0, .55)
+			h2
+				color: #fafafa
+				text-shadow: 1px 1px 1px #000
+			h3
+				color: #fafafa
+				text-shadow: 1px 1px 1px #000
+			.linea
+				box-shadow: 0px 0px 20px 1px #000
+			.user
+				margin: 50px 0 50px
+				p
+					margin: 20px 0
+					color: #fbfbfb
+					font-size: 18px
+					line-height: 20px
+					font-family: 'Podkova'
+					font-weight: 300
+					letter-spacing: 1px
+				.block-img-usor
+					position: relative
+					background-image: url(https://image.ibb.co/n9w0Qp/usor.png)
+					width: 140px
+					height: 120px
+					top: 50%
+					left: 50%
+					transform: translateX(-50%)
+					#two
+						position: absolute
+						left: 50%
+						top: 50%
+						transform: translate(-50%, -50%)
+			.button-phone
+				padding: 7px 45px
+				border-radius: 0
+				border-color: gold
+				color: gold
+				&:hover
+					background-color: transparent !important
+	&__5
+		p
+			text-align: left
+			font-family: 'Podkova'
+			font-size: 24px
+			letter-spacing: 1px
+			font-weight: 500
+	&__6
+		text-align: center
+		h2,h3
+			color: #fafafa
+		.karta
+			padding: 5px 
+			border: 1px solid rgba(#fff, .4)
+			cursor: pointer
+		.contacts-f
+			font-family: 'Podkova', sans-serif
+			font-size: 24px
+			color: #f2f2f2
+			top: 50%
+			text-align: left
+			position: relative
+			transform: translateY(-50%)
+			border-right: 1px solid rgba(gold, .4)
+			span
+				line-height: 55px
+		.linea-bottom
+			margin-top: 30px
+			line-height: 30px
+			border-top: 1px solid rgba(#fff, .45)
+			h4
+				margin: 0
+				font-family: 'Podkova', sans-serif
+				font-size: 16px
+				text-transform: uppercase
+				line-height: 25px
+				color: #f4f4f4
+
+
+				
+
+
+footer
+	background-color: #090504
+	padding: 60px 0 5px
+	margin-bottom: -30px
+
+h2
+	font-family: $ob
+	text-transform: uppercase
+	font-size: 34px
+	padding: 5px 0
+	strong
+		color: #8f3f00
+
+h3
+	font-family: 'Podkova'
+	font-weight: 600
+	font-size: 24px
+	padding: 15px 0
+
+section
+	padding: 60px 0
+	text-align: center
+
+.linea
+	width: 150px
+	height: 2px
+	background-color: #ffd700
+	position: relative
+	left: 50%
+	transform: translateX(-50%)
+		
+.button-phone
+	list-style-type: none
+	text-decoration: none
+	color: $text-f
+	border: 1px solid $text-f
+	padding: 5px 10px
+	border-radius: 10px
+	transition: .3s
+	&:hover
+		transition: .3s
+		background-color: darken($text-f, 10%) !important
+		color: #fff !important
+		border-color: #fff !important
+		text-decoration: none		
+
+@import "media" // Always at the end
