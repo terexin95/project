@@ -1,0 +1,203 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+	.slaider span
+		font-size: 20px
+
+	.block-3 ul li
+		font-size: 13px
+
+// ≥992px
++media-breakpoint-down(md)
+	.navbar-toggler:not(:disabled):not(.disabled)
+		border: none
+		line-height: 40px
+	header
+		height: auto
+
+	.contacts-form a
+		font-size: 10px
+
+	.menu-right ul li
+		line-height: 30px
+
+	.slaider span
+		top: 10px
+		font-size: 16px
+		strong
+			font-size: 30px
+
+	.contacts-icons a
+		display: inline-block
+
+	.contacts-form
+		text-align: center
+		span
+			text-align: center
+			display: block
+		a
+			text-align: center
+			padding: 5px 15px
+			display: inline
+			white-space: nowrap
+
+	footer .modal-footer-button
+		font-size: 12px
+
+	footer
+		padding: 20px 0
+		ul
+			padding: 20px 0
+
+	.hidden_down
+		display: block
+
+	.hidden_md
+		display: none
+
+	.block-rek
+		&:last-child
+			margin-bottom: 30px
+		span
+			font-size: 10px
+			right: 3px
+			top: 3px
+			line-height: 15px
+			strong
+				font-size: 18px
+
+	.main-content
+		.form
+			margin: 30px 0
+			border: none
+			border-left: 1px solid #333
+			border-right: 1px solid #333
+			button
+				margin-top: 20px
+
+	footer ul li
+		font-size: 12px
+
+	.top-content .search
+		margin: 25px 0
+
+
+
+
+
+
+// ≥768px
++media-breakpoint-down(sm)
+	.left-sitebar img
+		padding: 20px 0
+
+
+
+	.main-content .form button
+		margin-top: 15px
+
+	.main-content .form input
+		width: 95%
+		text-align: center
+
+	.sf-menu
+		text-align: center
+		width: 100%
+
+	.work-time span
+		line-height: 25px
+		display: block
+
+	#navbarSupportedContent
+		width: 345px
+		position: absolute
+		background-color: #1c5e48
+		top: 50px
+
+	.block-rek
+		img
+			width: 100%
+			height: auto
+		span
+			font-size: 22px
+			right: 7px
+			top: 30px
+			line-height: 25px
+
+	.hidden_rek
+		display: block
+
+
+
+
+
+
+// ≥576px
++media-breakpoint-down(xs)
+	.menu-right ul li
+		img
+			display: none
+		a
+			display: flex
+			line-height: 40px
+			justify-content: left
+			margin-left: 40px
+
+	.block-news
+		padding-left: 0
+		img
+			width: 100%
+			height: auto
+
+	.block-5
+		padding-left: 0
+
+	.block-4
+		padding-left: 0
+
+	.block-3
+		padding-left: 0
+
+	.block-2
+		padding-left: 0
+
+	.slaider span
+		font-size: 16px
+
+	.navbar-toggler:not(:disabled):not(.disabled)
+		border: none
+		line-height: 40px
+	.hidden_down
+		display: block
+	.hidden_up
+		display: none
+
+	.footer-icons
+		padding-top: 5px
+
+	footer
+		text-align: center
+		ul
+	 		li
+	 			text-align: left
+
+
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)

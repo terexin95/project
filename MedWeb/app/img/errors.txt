@@ -1,0 +1,12 @@
+[2018-07-19 18:04:09] layer "Если у Вас остались вопросы, появились предложения, замечания, ": Expected end of input but "," found.
+[2018-07-19 18:04:09] layer "check-symbol.png": Duplicate path: check-symbol.png
+[2018-07-19 18:04:09] layer "book.png": Duplicate path: book.png
+[2018-07-19 18:04:09] layer "Почта: zdorovie@vamspravki.ru": Unsupported extension: ru
+[2018-07-19 18:04:09] layer "check-symbol.png": Duplicate path: check-symbol.png
+[2018-07-19 18:04:09] layer "check-symbol.png": Duplicate path: check-symbol.png
+[2018-07-19 18:04:09] layer "check-symbol.png": Duplicate path: check-symbol.png
+[2018-07-19 18:04:09] layer "check-symbol.png": Duplicate path: check-symbol.png
+[2018-07-19 18:04:09] layer "check-symbol.png": Duplicate path: check-symbol.png
+[2018-07-19 18:04:09] layer "check-symbol.png": Duplicate path: check-symbol.png
+[2018-07-19 18:04:09] layer "check-symbol.png": Duplicate path: check-symbol.png
+[2018-07-19 18:04:09] layer "right-arrow.png": Duplicate path: right-arrow.png
