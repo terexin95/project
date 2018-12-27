@@ -1,0 +1,176 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+	.bk-ret ul li ul ol a i
+		display: none
+
+	.bk-ret ul li ul ol i
+		display: none
+
+	.bk-ret ul li ul ol
+		padding: 0 7px !important
+
+	.bk-ret ul li ul ol
+		width: auto !important
+
+// ≥992px
++media-breakpoint-down(md)
+	.top-brs
+		display: none !important
+
+	.item-right
+		.pattern
+			height: 100%
+			a
+				.item-img
+					img
+						height: auto
+				.item-title
+					h3
+						font-size: 14px
+	.pattern
+		margin: 10px 0
+		.item-text
+			.item-title
+				h3
+					font-size: 18px
+			.item-date
+				bottom: 10px
+
+	.bk-ret ul li ul ol:first-child
+		width: 100% !important
+	.brs ol img
+		width: 100% !important
+		height: auto !important
+
+	.bk-ret ul li ul ol
+		display: block !important
+		border-right: none !important
+		padding: 5px 0 !important
+		text-align: center !important
+
+	.bk-ret ul li ul
+		width: 100%
+
+	.bk-ret ul li ul ol a i
+		display: inline-block
+
+	.bk-ret ul li ul ol i
+		display: inline-block
+
+	.menu
+		display: none
+
+	.mobile-menu
+		display: block
+		.mob-btn-menu
+			display: none
+
+	.social
+		ul
+			li
+				display: inline-block
+				width: 35px
+				height: 34px
+	
+	.col-lg-4
+		padding: 0
+		.news-right
+			margin: 10px 0
+			.news-top
+				height: auto
+				.block-img
+					img
+						height: auto
+
+	.social
+		i
+			font-size: 16px
+
+	.news-right
+		.block-text
+			h4
+				font-size: 25px
+			span
+				font-size: 16px
+				left: 55px
+			a
+				font-size: 16px 
+				right: 55px
+
+// ≥768px
++media-breakpoint-down(sm)
+	.pattern
+		.item-text
+			.item-title
+				h3
+					font-size: 16px
+
+// ≥576px
++media-breakpoint-down(xs)
+	.pattern
+		.item-text
+			.item-title
+				h3
+					font-size: 14px
+	.block-one
+		margin: 0
+
+	.social
+		ul
+			margin: 5px 0
+
+	.wrp-footer .menu-footer ul li
+		padding: 15px 10px
+
+	.block-prog .block-p-tittle h3
+		font-size: 16px
+
+	.mobile-menu .mob-btn-menu
+		width: 300px
+
+	.block-text
+		h4
+			margin: 0
+			font-size: 14px
+		span
+			font-size: 12px
+			bottom: 5px
+			left: 35px
+		a
+			font-size: 12px
+			bottom: 2px
+			right: 35px
+
+	.news-right
+		.block-text
+			h4
+				margin: 0
+				font-size: 14px
+			span
+				font-size: 12px
+				bottom: 5px
+				left: 35px
+			a
+				font-size: 12px
+				bottom: 2px
+				right: 35px
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
